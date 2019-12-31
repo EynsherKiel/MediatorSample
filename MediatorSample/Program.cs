@@ -84,12 +84,6 @@ namespace MediatorSample
             var @int = await mediator.Send(new GetIntFromDBRequest { Name = "ds"  });
 
             Console.WriteLine(@int);
-
-            var a = 5;
-
-            var x = new IntPtr(a);
-
-            System.Runtime.InteropServices.Marshal.SizeOf(a);
         }
     }
 }
